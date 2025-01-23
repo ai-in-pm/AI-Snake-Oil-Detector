@@ -76,15 +76,51 @@ python example.py
 ```
 
 ## Output
+```bash
 
-The system provides:
-- Detailed analysis from each agent
-- Overall confidence score (0-100%)
-- Product categorization:
-  - Legitimate AI Solution
-  - AI Snake Oil
-  - Unverified AI Solution
-- Red flags and recommendations
+AI SnakeOil Detection Results
+=============================
+Analysis Date: 2025-01-22 18:32:51
+Product: AI SuperBrain 3000
+Company: TechCorp Inc.
+
+Executive Summary
+-----------------
+Category: AI Snake Oil
+Confidence Score: 0.37/1.00
+Risk Level: 0.00/1.00
+
+Detailed Analysis
+-----------------
+
+Claims Validation:
+- Confidence Score: 0.12
+
+Transparency Assessment:
+- Documentation Score: 0.34
+
+Applicability Analysis:
+- Suitability Score: 0.49
+
+Marketing Claims Review:
+- Transparency Score: 0.51
+
+Red Flags
+---------
+[HIGH] 100% accurate predictions in all scenarios
+[HIGH] Can read and understand human emotions perfectly
+[MEDIUM] Eliminates all biases automatically
+[LOW] Marketing claim contains buzzword: revolutionary
+[LOW] Marketing claim contains buzzword: first-ever
+[LOW] Marketing claim contains buzzword: quantum
+
+Recommendations
+---------------
+[MEDIUM] High Priority: Should obtain necessary medical certifications
+
+Risk Mitigation Steps
+
+```
 
 ## Contributing
 
